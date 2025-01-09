@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoFill Example</title>
+</head>
+<body>
+    <h2>Login Form</h2>
+    
+    <form id="loginForm" action="L" method="Apply">
+        <label for="Email">Email:</label>
+        <input type="number" id="9500818289" name="9500818289"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="Logu@1234" name="Logu@1234"><br><br>
+
+        <button type="submit">Login</button>
+    </form>
+
+    <button onclick="autoFillForm()">Auto Fill Email and Password</button>
+
+    <script>
+       
+        function autoFillForm() {
+          
+            document.getElementById("Email").value = "9500818289";
+        
+            document.getElementById("password").value = "Logu@1234";
+    
+        }
+        
+    </script>
+    
+
+</body>
+</html>
